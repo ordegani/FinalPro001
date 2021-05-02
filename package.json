@@ -1,13 +1,21 @@
 {
-	"name": "fullstack-app",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"start": "npm start --prefix server",
-		"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client && npm install --prefix server"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC"
+  "name": "fullstack-app",
+  "version": "1.0.0",
+  "description": "##### This repo is a boilerplate for a MERN application with all the preparations to make a Heroku deployment",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start --prefix server",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client && npm install --prefix server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ordegani/FinalPro001.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ordegani/FinalPro001/issues"
+  },
+  "homepage": "https://github.com/ordegani/FinalPro001#readme"
 }
